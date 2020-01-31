@@ -1,0 +1,399 @@
+/*global styles*/
+*, body, body > * 
+{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    color: #f3f3f3;
+    font-family: proxima-nova, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.05em;
+    line-height: 1rem;
+}
+
+body
+{
+    /* background-color: #171717; */
+    background-color: #0F1314;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper
+{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    overflow: scroll;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    text-transform: uppercase;
+    font-family: Blender Pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1
+{
+    font-size: 2.488rem;
+}
+
+h2
+{
+    font-size: 2.074rem;
+}
+
+h3
+{
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.728rem;
+    font-weight: 200;
+    font-style: normal;
+    color: #797979;
+}
+
+li, a
+{
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.667rem;
+}
+
+svg 
+{
+    fill: #d1d1d1;
+    height: 1rem;
+}
+
+.main-nav > *
+{
+    height: 3rem;
+}
+
+.main-nav
+{
+    position: fixed;
+    width: calc(100% - (98px * 2));
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 56px;
+    margin: 5vh 98px 0px 98px;
+}
+
+.logo > img
+{
+    width: 3rem;
+}
+
+.logo
+{   
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo > span
+{
+    margin-left: 10px;
+}
+
+.social-links
+{
+    display: flex;
+    align-items: center;
+}
+
+.social-links > ul
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    margin-left: auto;
+}
+
+.nav-list > ul > li
+{
+    margin-bottom: 10px;
+}
+
+.project-1
+{
+    background-image: url("/images/ar_portal.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-2
+{
+    background-image: url("/images/linkdup.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-3
+{
+    background-image: url("/images/prima_materia.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.projects-wrapper
+{
+    z-index: -1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20vh 0px 15vh 0px;
+}
+
+.project
+{
+    z-index: -1000;
+    margin-bottom: 30vh;
+}
+
+.project-img
+{
+    width: 50vw;
+    height: 50vh;
+    /* background-color: #3c3c3c; */
+}
+
+.project-info-wrapper
+{
+    margin-top: -0.5rem;
+}
+
+.project-title
+{
+    font-size: 49.5px;
+}
+
+.project-details
+{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-details > *
+{
+    color: #797979;
+    font-size: 0.833rem;
+}
+
+.project-details > div > *
+{
+    margin-bottom: 20px;
+}
+
+.project-intro, .project-research, .project-design, .project-testing
+{
+    border-bottom: solid 1px #797979;
+    
+}
+
+.project-styling > *
+{
+    margin-bottom: 10vh;
+    width: 50vw;
+}
+
+.project-styling
+{
+    margin-bottom: 20vh;
+    width: 50vw;
+}
+
+.project-grid
+{
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.project-font > *
+{
+    line-height: 1.5rem;
+    font-size: 0.833rem;
+}
+
+.project-lg-font p
+{
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.728rem;
+    font-weight: 200;
+    font-style: normal;
+    color: #797979;
+    line-height: 2.5rem;
+}
+
+
+.project-summary p
+{
+    width: 50vw;
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.728rem;
+    font-weight: 200;
+    font-style: normal;
+    color: #797979;
+    line-height: 2.5rem;
+}
+
+.footer-links
+{
+    position: fixed;
+    bottom: 50px;
+    right: 98px;
+    width: calc(100% - (98px * 2));
+}
+
+.email-cta
+{
+   margin-left: auto;
+   width: 5rem;
+   font-size: 0.694rem; 
+   text-align: center; 
+}
+
+.email-cta > a > svg
+{
+    height: 1.5rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    *, body, body > * 
+    {
+        font-size: 20px;
+    }
+
+    h1
+    {
+        line-height: 2rem;
+    }
+
+    .wrapper
+    {
+
+    }
+
+    .main-nav
+    {
+        width: calc(100% - 20px);
+        margin: 17px 25px 0px 25px;
+        grid-template-columns: 80% 20%;
+    }
+
+    .logo > img
+    {
+        width: 2rem;
+    }
+
+    .logo > span
+    {
+        font-size: 0.579rem;
+        margin-left: 2px;
+    }
+
+    .social-links
+    {
+        visibility: hidden;
+    }
+
+    .nav-list
+    {
+        visibility: hidden;
+    }
+
+    .projects-wrapper
+    {
+        grid-column-gap: 10vw;
+    }
+
+    .project-img
+    {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .project-info-wrapper
+    {
+        margin-top: 10vh;
+    }
+
+    .project-details > *
+    {
+        font-size: 0.692rem;
+    }
+
+    .footer-links
+    {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .email-cta
+    {
+        visibility: hidden;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+
+}
+
+
+/* fonts */
+@font-face {
+    font-family: 'Blender Pro';
+    src: url('BlenderPro-Medium.eot');
+    src: local('Blender Pro Medium'), local('BlenderPro-Medium'),
+        url('BlenderPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BlenderPro-Medium.woff2') format('woff2'),
+        url('BlenderPro-Medium.woff') format('woff'),
+        url('BlenderPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Blender Pro';
+    src: url('BlenderPro-Bold.eot');
+    src: local('Blender Pro Bold'), local('BlenderPro-Bold'),
+        url('BlenderPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BlenderPro-Bold.woff2') format('woff2'),
+        url('BlenderPro-Bold.woff') format('woff'),
+        url('BlenderPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
