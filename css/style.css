@@ -84,6 +84,7 @@ svg
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 56px;
     margin: 5vh 98px 0px 98px;
+    /* border: red solid 1px; */
 }
 
 .logo > img
