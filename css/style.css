@@ -38,6 +38,7 @@ h1,h2,h3,h4,h5,h6
     font-family: Blender Pro, sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 10px;
 }
 
 h1
@@ -195,7 +196,7 @@ svg
     margin-bottom: 20px;
 }
 
-.project-intro, .project-research, .project-design, .project-testing
+.project-intro
 {
     border-bottom: solid 1px #797979;
     
@@ -203,7 +204,7 @@ svg
 
 .project-styling > *
 {
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     width: 50vw;
 }
 
@@ -241,11 +242,11 @@ svg
 {
     width: 50vw;
     font-family: proxima-nova, sans-serif;
-    font-size: 1.728rem;
-    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 300;
     font-style: normal;
     color: #797979;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
 }
 
 .footer-links
