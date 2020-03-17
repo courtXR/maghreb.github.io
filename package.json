@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/maghreb/maghreb.github.io/issues"
   },
-  "homepage": "https://github.com/maghreb/maghreb.github.io#readme"
+  "homepage": "https://github.com/maghreb/maghreb.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.1"
+  }
 }
