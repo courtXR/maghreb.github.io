@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/maghreb/maghreb.github.io/issues"
   },
-  "homepage": "https://github.com/maghreb/maghreb.github.io#readme"
+  "homepage": "https://github.com/maghreb/maghreb.github.io#readme",
+  "dependencies": {}
 }
