@@ -15,7 +15,6 @@
 
 body
 {
-    /* background-color: #171717; */
     background-color: rgb(10, 10, 10);
 }
 
@@ -78,17 +77,6 @@ svg
     position: fixed;
 }
 
-/* .main-nav
-{
-    position: fixed;
-    width: calc(100% - (98px * 2));
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 56px;
-    margin: 5vh 98px 0px 98px;
-    border: red solid 1px;
-} */
-
 .logo > img
 {
     width: 3rem;
@@ -100,8 +88,6 @@ svg
 {   
     top: 5vh;
     left: 50vw;
-    /* display: flex;
-    align-items: center; */
     text-transform: uppercase;
 }
 
@@ -179,7 +165,6 @@ svg
 {
     width: 50vw;
     height: 50vh;
-    /* background-color: #3c3c3c; */
 }
 
 .project-info-wrapper
@@ -201,7 +186,6 @@ svg
 
 .project-details > *
 {
-    /* color: #797979; */
     font-size: 0.833rem;
 }
 
@@ -247,7 +231,6 @@ svg
     font-size: 1.728rem;
     font-weight: 200;
     font-style: normal;
-    /* color: #797979; */
     line-height: 2.5rem;
 }
 
@@ -258,7 +241,6 @@ svg
     font-size: 1rem;
     font-weight: 200;
     font-style: normal;
-    /* color: #797979; */
     line-height: 1.5rem;
 }
 
