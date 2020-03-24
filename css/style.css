@@ -75,12 +75,6 @@ svg
     position: fixed;
 }
 
-.logo > img
-{
-    width: 3rem;
-    float: left;
-}
-
 .logo
 {   
     top: 25px;
@@ -89,7 +83,7 @@ svg
     text-transform: uppercase;
 }
 
-.logo > span
+.logo > a > span
 {
     font-size: .8rem;
     font-family: proxima-nova, sans-serif;
@@ -128,7 +122,7 @@ svg
 {
     background-image: url("/images/ar_portal.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .project-2

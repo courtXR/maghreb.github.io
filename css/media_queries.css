@@ -1,75 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) 
 {
-    *, body, body > * 
-    {
-        font-size: 20px;
-    }
 
-    h1
-    {
-        line-height: 2rem;
-    }
-
-    .main-nav
-    {
-        width: calc(100% - 20px);
-        margin: 17px 25px 0px 25px;
-        grid-template-columns: 80% 20%;
-    }
-
-    .logo > img
-    {
-        width: 2rem;
-    }
-
-    .logo > span
-    {
-        font-size: 0.579rem;
-        margin-left: 2px;
-    }
-
-    .social-links
-    {
-        visibility: hidden;
-    }
-
-    .nav-list
-    {
-        visibility: hidden;
-    }
-
-    .projects-wrapper
-    {
-        grid-column-gap: 10vw;
-    }
-
-    .project-img
-    {
-        width: 80vw;
-        height: 30vh;
-    }
-
-    .project-info-wrapper
-    {
-        margin-top: 10vh;
-    }
-
-    .project-details > *
-    {
-        font-size: 0.692rem;
-    }
-
-    .footer-links
-    {
-        bottom: 10px;
-        right: 10px;
-    }
-
-    .email-cta
-    {
-        visibility: hidden;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
