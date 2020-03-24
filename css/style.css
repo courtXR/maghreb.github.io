@@ -230,12 +230,13 @@ svg
 
 .project-summary p
 {
-    width: 50vw;
+    width: 25vw;
     font-family: proxima-nova, sans-serif;
     font-size: 1rem;
     font-weight: 200;
     font-style: normal;
     line-height: 1.5rem;
+    border: 1px red solid;
 }
 
 .project-summary p
