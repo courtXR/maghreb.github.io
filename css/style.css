@@ -1,26 +1,26 @@
-/*global styles*/
 *, body, body > * 
 {
-    box-sizing: border-box;
-    margin:0px;
-    padding:0px;
     color: #f3f3f3;
     font-family: proxima-nova, sans-serif;
-    font-size: 24px;
+
     font-weight: 300;
     font-style: normal;
-    letter-spacing: 0.05em;
-    line-height: 1rem;
 }
+
+/* * {
+    border: 1px red solid;
+    height: fit-content;
+    width: fit-content;
+} */
 
 body
 {
     background-color: rgb(10, 10, 10);
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .wrapper
 {
@@ -146,7 +146,6 @@ svg
     flex-direction: column;
     align-items: center;
     margin-top: 20vh;
-    /* margin: 15vh 0px 15vh 0px; */
 }
 
 .project

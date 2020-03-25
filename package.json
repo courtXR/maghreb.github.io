@@ -16,5 +16,8 @@
     "url": "https://github.com/maghreb/maghreb.github.io/issues"
   },
   "homepage": "https://github.com/maghreb/maghreb.github.io#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "three": "^0.114.0"
+  }
 }
