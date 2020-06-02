@@ -75,6 +75,35 @@ svg
     position: fixed;
 }
 
+.about-me
+{
+    /* border: red 1px solid; */
+}
+
+.about-grid
+{
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-img
+{
+    /* border: red 1px solid;
+    box-sizing: content-box; 
+    background-image: url("/images/Headshot_Courtney_Taylor.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+.about-text
+{
+    /* border: red 1px solid; */
+    font-size: 16px;
+    margin-left: 10%;
+}
+
 .logo
 {   
     top: 25px;
@@ -107,7 +136,8 @@ svg
     margin-bottom: 20px;
 }
 
-.nav-list {
+.nav-list 
+{
     top: 50px;
     right: 50px;
 }
@@ -146,7 +176,7 @@ svg
     flex-direction: column;
     align-items: center;
     margin-top: 20vh;
-    /* margin: 15vh 0px 15vh 0px; */
+    margin: 15vh 0px 15vh 0px;
 }
 
 .project
