@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Courtney Taylor Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://use.typekit.net/qkn3afm.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media_queries.css">
     <style>
         svg 
         {
@@ -14,22 +17,25 @@
             height: 1rem;
         }
 
-        .logo > img
+        .logo > a > img
         {
             width: 3rem;
+            float: left;
         }
     </style>
 </head>
 <body>
     <div class="wrapper">
         <header class="main-nav">
+
             <div class="logo">
-                <img src="images/logo_web_wht.gif">
-                <span>Courtney Taylor</span>
+                <a href="index.html"><img src="images/logo_web_wht.gif"></a>
+                <a href="index.html"><span>Courtney Taylor</span></a>
             </div>
+
             <div class="social-links">
                 <ul>
-                    <li><a href="">
+                    <li><a href="https://www.linkedin.com/in/courtneytaylorxr/" target="_blank">
                         <!--linkedin-->
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
@@ -39,7 +45,7 @@
                         S140.25,160.65,114.75,160.65z M433.5,433.5H357V298.35c0-20.399-17.85-38.25-38.25-38.25s-38.25,17.851-38.25,38.25V433.5H204
                         V204h76.5v30.6c12.75-20.4,40.8-35.7,63.75-35.7c48.45,0,89.25,40.8,89.25,89.25V433.5z"/></svg>
                     </a></li>
-                    <li><a href="">
+                    <li><a href="https://www.behance.net/courtneyjt9cc5" target="_blank">
                         <!--behance-->
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 504.4 504.4" style="enable-background:new 0 0 504.4 504.4;" xml:space="preserve">
@@ -52,7 +58,7 @@
                         C418.4,199.4,407.6,288.2,407.6,288.2z"/>
                         <path d="M340.4,228.6c-30,0-34.4,31.6-34.4,31.6h64C370,260.2,370.4,228.6,340.4,228.6z"/></svg>
                     </a></li>
-                    <li><a href="">
+                    <li><a href="https://www.instagram.com/courtneytaylor.xr/" target="_blank">
                        <!--instagram-->
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -71,7 +77,7 @@
                         3.249-7.055 5.341l1.129 1.472c1.075-.762 1.702-1.144 1.881-1.144 1.871 0 2.777 6.367 4.23 11.102.975 2.613 2.144 3.92 3.553 3.92 2.264 0 
                         5.022-2.144 8.29-6.434 3.155-4.107 4.789-7.344 4.894-9.705l.013-.01c.134-3.165-1.021-4.785-3.493-4.846z"/></svg>
                     </a></li> -->
-                    <li><a href="">
+                    <li><a href="https://github.com/maghreb" target="_blank">
                         <!--github-->
                         <svg id="Bold" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                          <path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 
@@ -86,28 +92,16 @@
             <nav class="nav-list">
                 <ul>
                     <li><a href="index.html">Projects</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="https://www.dropbox.com/s/vk8tynm1gwza005/Resume%20Courtney%20Taylor.pdf?dl=0">Resume</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://www.dropbox.com/s/vk8tynm1gwza005/Resume%20Courtney%20Taylor.pdf?dl=0" target="_blank">Resume</a></li>
                 </ul> 
             </nav>
         </header>
+
         <div class="projects-wrapper">
             <section class="project-intro project-styling">
                 <div class="project-info-wrapper project-styling">
                     <h1 class="project-title">AR Portal</h1>
-                    <div class="project-summary">
-                        <p>The LOL AR viewer concept was designed
-                            to provide a viewing experience only Red
-                            Bull could offer. By leveraging the immersive
-                            aspects of an AR enable mobile device, Red
-                            Bull could provide a unique experience by
-                            allowing users to place summoners rift in
-                            their living room. Users would be able to walk
-                            around the map and view the match from
-                            a multitude of perspectives that playing the
-                            game couldn’t even match.</p>
-                    </div>
                     <div class="project-details">
                         <div class="client">
                             <h4>Client</h4>
@@ -124,82 +118,85 @@
                             Fall 2019
                         </div>
                     </div>
+                    <div class="project-summary">
+                        <h4>CONTEXT</h4>
+                        <p>
+                            AR Portal was the result of a collaborative project with Red Bull for my Design for Community Change class. The Brief asked us to help Red Bull drive app installs and increase user retention rates.
+                        </p>
+                        <br>
+                        <h4>PROBLEM</h4>
+                        <p>
+                            Red Bull struggled to retain users since the mobile app offered very little unique content not found on its Youtube channel.
+                        </p>
+                        <br>
+                        <h4>SOLUTION</h4>
+                        <p>
+                            LoL AR Portal is a feature exclusive to the Red Bull TV app that would allow esports fans to watch League of Legends pro matches using augmented reality. This feature provides a unique experience to Red Bull’s fastest-growing demographic, esports fans. This feature will allow Red Bull to capture millions of esports fans worldwide as new users and strengthen their relationship with their largest global partner, Riot Games. 
+                        </p>
+                    </div>
                     <div class="project-img project-1"></div>
                 </div>
             </section>
-            <section class="project-research project-styling project-lg-font">
-                <h1>Research</h1>
-                <p>From my research into personalizing content, it seems that Red Bull may be at
-                    a disadvantage when compared to other companies without access to user-
-                    generated content. Where I see Red Bull have the best advantage in terms of
-                    connecting with its audience is in the realm of interactive experiences with it’s VR/
-                    AR technology. Product focused companies use interactive experiences mainly
-                    to market but media companies have yet to capitalize on this technology.</p>
+            <section class="project-research project-styling project-summary">
+                <h1>User Interviews</h1>
+                <p>Interviewing users about the RBTV app revealed that most users didn’t see any difference between the app and others like Youtube when it came to video content. The only features users thought was interesting were the 360 video and AR features but felt that the content wasn’t suitable to the format. Both the AR and 360 video features turned out to be convoluted methods to navigate to or view flat video content. This realization disappointed each user I interviewed.</p>
+            </section>
+            <section class="project-design project-styling project-summary">
+                <h1>Competitor Analysis</h1>
+                <div>
+                    <p>During a competitor analysis, I noticed that Red Bull was unique in the fact that they were a video streaming platform that had experience with AR. Some companies supported 360 video content and even VR but when it came to AR, Red Bull was the outlier. 
+                    </p>
+                    <div class="project-img" style="background-image: url('/images/chart.png'); background-position: center;
+                    background-size: contain; background-repeat: no-repeat; width: 50vw;"></div>
+                </div>
+            </section>
+            <section class="project-testing project-styling project-summary">
+                <h1>Secondary Research</h1>
+                <div>
+                    <p>Through research, I found that Red Bull had long been trying to break into the esports market. Although they’ve gained respect among fans through the years, only recently had they made their largest move yet. In 2019 Red Bull was named the official drink of League of Legends, the largest esport in the world, and a Riot games global partner.</p>
+                </div>
                 <div class="project-img" style="background-image: url('/images/lol_rb_camp.png'); background-position: center;
                 background-size: cover;"></div>
             </section>
-            <section class="project-design project-styling project-lg-font">
-                <h1>Design</h1>
+            <section class="project-insight project-styling project-summary">
+                <h1>Research Insights
+                </h1>
                 <div>
-                    <p>This first prototype was mainly a proof of
-                        concept to see if the idea of watching video
-                        games with a large field would even be
-                        possible in AR. I realized that the lighting of
-                        the in-game object was not affected by the
-                        real world so I went back and adjusted the
-                        lighting to compensate.
-                        In the second prototype, I wanted to see if
-                        having a sky backdrop would enhance the
-                        experience by changing the atmosphere. I
-                        decided against this since the addition of the
-                        skybox was making it difficult to for users to
-                        see where the field was being placed in the
-                        real world since the camera view was being
-                        obscured by the skybox.
-                        The third prototype was the version that I
-                        used to test users since I decided to remove
-                        the skybox to allow users to see the real world
-                        with the virtual object. Also, I improved the
-                        lighting so the app would be capable to be
-                        used even in low light situations.
-                    </p>
+                    <p>I saw an opportunity for Red Bull to appeal to its growing esports demographic and appeal to its largest partner, Riot Games, by using a feature entirely unique to their app, AR. Companies like Valve have begun streaming esports like DOTA 2 using their Valve Index VR headset. However, VR remains intimidating to the general public due to its high cost and the threat of VR sickness. AR is a technology that Red Bull has significant experience with and is already popular with the general public due to easy access and ease of use of popular apps like Pokémon Go.</p>
                 </div>
-                <div class="project-img" style="background-image: url('/images/ar_portal.png'); background-position: center;
+            </section>
+            <section class="project-insight project-styling project-summary">
+                <h1>Sketches
+                </h1>
+                <div>
+                    <p>I decided early on that using AR to allow fans to pan and zoom around the summoners rift arena would be the core experience of this app feature.</p>
+                </div>
+                <div class="project-img" style="background-image: url('/images/sketch.jpg'); background-position: center;
+                    background-size: cover; height: 100vh;"></div>
+            </section>
+            <section class="project-insight project-styling project-summary">
+                <h1>Prototype
+                </h1>
+                <div>
+                    <p>Early prototypes show the summoners rift arena and a character model from the game to give users the impression that they are watching live gameplay. Hi-fidelity prototypes were built and coded using the Unity game engine.</p>
+                </div>
+                <div class="project-img" style="background-image: url('/images/prototype.png'); background-position: center;
                     background-size: cover;"></div>
             </section>
-            <section class="project-testing project-styling project-lg-font">
-                <h1>Testing</h1>
+            <section class="project-insight project-styling project-summary">
+                <h1>Testing
+                </h1>
                 <div>
-                    <p>I think my prototype was successful in the fact that most participants said that they
-                        could see themselves becoming more interested in e-sports if this kind of technology was
-                        available. However, I am skeptical to believes this since the prototype was so low-fidelity.
-                        The actual experience of watching a match has a lot more nuances that I have been able to
-                        capture in such a simple prototype. I also feel that if the user interaction is not well thought
-                        out then these users may decide that watching this content in AR is too much hassle
-                        and abandon the app altogether. This prototype was mainly a test of the technology and
-                        participant’s opinion of the possibilities of it in this context. The next step will be trying to
-                        simulate the experience and testing interactions.</p>
+                    <p>For testing, users were given a working app they could try the feature on. They were asked a series of questions to measure engagement and usability. In later iterations, a live video feed of gameplay was added to provide context to what users were seeing happening on the field.</p>
                 </div>
-                <div class="project-img" style="background-image: url('/images/eduardo.png'); background-position: center;
+                <div class="project-img" style="background-image: url('/images/florencio.png'); background-position: center;
                     background-size: cover;"></div>
             </section>
-            <section class="project-insight project-styling project-lg-font">
-                <h1>Insights</h1>
+            <section class="project-insight project-styling project-summary">
+                <h1>Reflection
+                </h1>
                 <div>
-                    <p>I think at the start of this project I was under the assumption that this project would turn
-                        out to be mainly targeted toward hardcore esports fans interested in VR. However, the
-                        more research I acquire I realized that the real user to design for is for those who would
-                        normally not watch esports and who are only mildly familiar with AR. I was under the
-                        assumption that nearly everyone was familiar with AR/VR but was surprised to find out
-                        otherwise. Many people were impressed by the initial idea but I would have to test higher
-                        fidelity prototypes to see if they would really be invested in this kind of experience. I think
-                        areas that will be the most challenging are onboarding users who are not familiar with
-                        this kind of experience. The next challenge will be to streamline the experience to allow
-                        users to view the experience from a seated position if they wanted to do that. However,
-                        some interactions may prove difficult to test for. Specifically, touch gestures and interaction
-                        that allow users to change orientation of the field. However, the implementation of these
-                        features would greatly improve the user experience for users not familiar with AR since it
-                        would mimic user interactions commonly found in non-AR apps.</p>
+                    <p>From the testing, I found that esports fans and non-esports fans found this feature to be a definite selling point of the app. Users who had never watched a LoL match stated that this feature would certainly encourage them to download the app and share it with friends and family.</p>
                 </div>
             </section>
         </div>
