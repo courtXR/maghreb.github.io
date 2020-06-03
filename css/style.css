@@ -75,26 +75,11 @@ svg
     position: fixed;
 }
 
-.about-me
-{
-    /* border: red 1px solid; */
-}
-
 .about-grid
 {
     width: 50vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-.about-img
-{
-    /* border: red 1px solid;
-    box-sizing: content-box; 
-    background-image: url("/images/Headshot_Courtney_Taylor.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat; */
 }
 
 .about-text
