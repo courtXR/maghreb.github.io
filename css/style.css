@@ -107,6 +107,17 @@ svg
     top: 50%;
     margin-left: 20px;
 }
+.logo-img
+{
+    position: fixed;
+    top: 25px;
+    left: 50vw;
+}
+
+.logo-img img
+{
+    height: 80px;
+}
 
 .social-links
 {
@@ -135,7 +146,7 @@ svg
 
 .project-1
 {
-    background-image: url("/images/ar_portal.png");
+    background-image: url("/images/Augmented\ mockup.jpg");
     background-position: center;
     background-size: contain;
 }
