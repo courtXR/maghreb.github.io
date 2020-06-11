@@ -2,15 +2,13 @@
 *, body, body > * 
 {
     box-sizing: border-box;
-    margin:0px;
-    padding:0px;
     color: #f3f3f3;
     font-family: proxima-nova, sans-serif;
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 16px;
+    /* font-weight: 300;
     font-style: normal;
     letter-spacing: 0.05em;
-    line-height: 1rem;
+    line-height: 1rem; */
 }
 
 body
@@ -22,12 +20,19 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.index-projects
+{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    width: 100vw;
+}
+
 .wrapper
 {
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    overflow: scroll;
+    /* height: 100vh;
+    width: 100vw; */
+    /* position: fixed;
+    overflow: scroll; */
 }
 
 h1,h2,h3,h4,h5,h6
@@ -61,13 +66,30 @@ li, a
 {
     list-style: none;
     text-decoration: none;
-    font-size: 0.667rem;
 }
 
-svg 
+header
 {
-    fill: #d1d1d1;
-    height: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.nav-list
+{
+    text-align: right;
+}
+
+.logo
+{
+    transform: translateY(25%);
+}
+
+.logo-text
+{
+    text-transform: uppercase;
+    transform: translateY(85%);
+    margin-left: 5px;
 }
 
 .main-nav > *
@@ -90,23 +112,36 @@ svg
 }
 
 .logo
-{   
-    top: 25px;
-    left: 50px;
-    height: 50px;
-    text-transform: uppercase;
+{    
+     
+}
+
+.logo-text
+{
+    
+}
+
+.logo-text > a
+{
+    font-family: Blender Pro, sans-serif;
+}
+
+.logo > *
+{
+    float: left;
 }
 
 .logo > a > span
 {
-    font-size: .8rem;
+    /* font-size: .8rem;
     font-family: proxima-nova, sans-serif;
     font-weight: 500;
     display: inline-block;
     position: relative;
     top: 50%;
-    margin-left: 20px;
+    margin-left: 20px; */
 }
+
 .logo-img
 {
     position: fixed;
@@ -134,21 +169,30 @@ svg
 
 .nav-list 
 {
-    top: 50px;
-    right: 50px;
+    /* top: 50px;
+    right: 50px; */
+    /* border: red solid 1px; */
+    /* float: left; */
 }
 
 .nav-list > ul > li
 {
-    margin-right: 50px;
-    float: left;
+    margin-bottom: 5px;
+    
+}
+
+.project-1-container
+{
+    height: 100vh;
 }
 
 .project-1
 {
     background-image: url("/images/Augmented\ mockup.jpg");
-    background-position: center;
+    background-position: left;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
 
 .project-2
@@ -194,7 +238,13 @@ svg
 
 .project-title
 {
-    font-size: 49.5px;
+    padding: 10px;
+    height: 100%;
+}
+
+.project-title > h1
+{
+    font-size: 4rem;
 }
 
 .project-details
