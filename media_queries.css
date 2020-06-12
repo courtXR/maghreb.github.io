@@ -11,9 +11,33 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) 
+@media only screen and (max-width: 768px) 
 {
+    .in-progress
+    {
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        visibility: visible;
+    }
 
+    .in-progress > div
+    {
+        transform: translateY(35vh);
+        margin: auto;
+        text-align: center;
+        visibility: visible;
+        width: fit-content;
+    }
+
+    .in-progress > div > *
+    {
+        display: block;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

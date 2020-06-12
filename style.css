@@ -22,6 +22,16 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.in-progress
+{
+    visibility: hidden;
+}
+
+.in-progress > *
+{
+    visibility: hidden;
+}
+
 .wrapper
 {
     height: 100vh;
@@ -78,15 +88,31 @@ svg
 .about-grid
 {
     width: 50vw;
+    /* transform: translateY(25%); */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-grid > *
+{
+    height: 50vh;
+    /* border: solid red 1px; */
+}
+
+.about-img
+{
+    background-image: url(images/Headshot_Courtney_Taylor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .about-text
 {
     /* border: red 1px solid; */
-    font-size: 16px;
-    margin-left: 10%;
+    font-size: .6em;
+    margin-left: 10px;
+    width: 15vw;
 }
 
 .logo
