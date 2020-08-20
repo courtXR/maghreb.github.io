@@ -26,6 +26,11 @@
    {
        align-items: flex-start ! important; 
    }
+   .m-x-0
+   {
+       margin-left: 0px;
+       margin-right: 0px;
+   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
