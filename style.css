@@ -12,6 +12,11 @@
     font-style: normal;
 }
 
+.test
+{
+    border: red 1px solid;
+}
+
 body
 {
     background-color: rgb(10, 10, 10);
@@ -19,34 +24,80 @@ body
     font-family: 'Roboto';
     font-size: 1.2rem;
 }
+
 a
 {
     color: #ffffff;
 }
 
-.header-container
+a:hover
 {
-    margin-left: 2vw;
+    color: rgb(135, 2, 168);
+    text-decoration: none;
 }
 
-.header
+a div:hover
 {
-    height: 100vh;
+    filter:brightness(50%);
+}
+
+li
+{
+    list-style: none;
+}
+
+svg 
+{
+    fill: #ffffff;
 }
 
 .header-text
 {
-    
-    /* font-family: 'Blender Pro'; */
+    font-family: 'Blender Pro';
     letter-spacing: -.1rem;
 }
 
-video {
-    object-fit: cover;
-    width: 100vw;
+.h-50vh
+{
+    height: 50vh; 
+}
+
+.h-75vh
+{
+    height: 75vh; 
+}
+
+.h-90vh
+{
+    height: 90vh; 
+}
+
+.h-100vh
+{
     height: 100vh;
-    position: absolute;
-    opacity: 50%;
-    top: 0;
-    left: 0;
-  }
+}
+
+.font-w300
+{
+    font-weight: 300;
+}
+
+.font-grey
+{
+    color: #b8b8b8;
+}
+
+.font-lg
+{
+    font-size: 2.5rem;
+}
+
+.img-75br
+{
+    filter:brightness(75%);
+}
+
+.blue-0-255-242
+{
+    color: rgb(0, 255, 242);
+}
