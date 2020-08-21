@@ -1,15 +1,15 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) 
 {
-   .xs-font
+   /* .xs-font
    {
        font-size: 2rem;
-   }
+   } */
 
-   .xs-font-2
+   /* .xs-font-2
    {
        font-size: 1rem;
-   }
+   } */
 
    .vid-bg
    {
@@ -31,39 +31,52 @@
        margin-left: 0px;
        margin-right: 0px;
    }
+
+   body
+    {
+        font-size: 1rem;
+    }
+    h1
+    {
+        font-size: 1rem
+    }
+    .display-3
+    {
+        font-size: 2rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) 
 {
-    .sm-font
+    /* .sm-font
     {
         font-size: 2rem;
-    }
+    } */
 
-    .sm-font-2
+    /* .sm-font-2
     {
         font-size: 1rem;
-    }
+    } */
 
-    .sm-top
+    /* .sm-top
    {
        align-items: flex-start ! important; 
-   }
+   } */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) 
 {
-    .md-font
+    /* .md-font
     {
         font-size: 2rem;
-    }
+    } */
 
-    .md-font-2
+    /* .md-font-2
     {
         font-size: 1rem;
-    }
+    } */
 
     
 }
@@ -72,15 +85,15 @@
 @media only screen and (min-width: 992px) 
 {
     
-    .lg-font
+    /* .lg-font
     {
         font-size: 3rem;
-    }
+    } */
         
-    .lg-font-2
+    /* .lg-font-2
     {
         font-size: 1.5rem;
-    }
+    } */
 
     
 }
@@ -88,14 +101,14 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) 
 {
-    .xl-font
+    /* .xl-font
     {
         font-size: 4.5rem;
-    }
+    } */
 
-    .xl-font-2
+    /* .xl-font-2
     {
         font-size: 2rem;
-    }
+    } */
     
 }
