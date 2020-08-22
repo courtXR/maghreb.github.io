@@ -1,16 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) 
 {
-   .xs-font
-   {
-       font-size: 2rem;
-   }
-
-   .xs-font-2
-   {
-       font-size: 1rem;
-   }
-
+    html 
+    {
+        font-size: .7rem;
+    }
+   /*
    .vid-bg
    {
        width: auto;
@@ -31,84 +26,35 @@
        margin-left: 0px;
        margin-right: 0px;
    }
-
-   body
-    {
-        font-size: 1rem;
-    }
-    h1
-    {
-        font-size: 1rem
-    }
-    .display-3
-    {
-        font-size: 2rem;
-    }
+    */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) 
 {
-    .sm-font
+    html 
     {
-        font-size: 2rem;
+        font-size: .9rem;
     }
-
-    .sm-font-2
-    {
-        font-size: 1rem;
-    }
-
-    .sm-top
-   {
-       align-items: flex-start ! important; 
-   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) 
 {
-    .md-font
-    {
-        font-size: 2rem;
-    }
-
-    .md-font-2
-    {
-        font-size: 1rem;
-    }
-
     
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) 
 {
-    
-    .lg-font
+    html 
     {
-        font-size: 3rem;
+        font-size: 1rem;
     }
-        
-    .lg-font-2
-    {
-        font-size: 1.5rem;
-    }
-
-    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) 
 {
-    .xl-font
-    {
-        font-size: 4.5rem;
-    }
-
-    .xl-font-2
-    {
-        font-size: 2rem;
-    }
     
 }

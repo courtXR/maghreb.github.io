@@ -12,6 +12,11 @@
     font-style: normal;
 }
 
+/* *, body, body > *
+{
+    border: red 0.5px solid; 
+} */
+
 .test
 {
     border: red 1px solid;
@@ -19,6 +24,8 @@
 
 body
 {
+    width: 100%;
+    height: 100%;
     background-color: rgb(10, 10, 10);
     color: #dddddd;
     font-family: 'Roboto', sans-serif;
@@ -51,8 +58,9 @@ svg
 
 .header-text
 {
-    font-family: 'Blender Pro';
-    letter-spacing: -.1rem;
+    /* font-family: 'Blender Pro'; */
+    /* letter-spacing: -.1rem; */
+    font-weight: 300;
 }
 
 .h-50vh
@@ -75,14 +83,14 @@ svg
     height: 100vh;
 }
 
-.w-100vh
+.w-50vw
 {
-    width: 100vw;
+    width: 50vw;
 }
 
-.font-w300
+.w-100vw
 {
-    font-weight: 300;
+    width: 100vw;
 }
 
 .font-grey
@@ -113,4 +121,35 @@ svg
 .m-btm-15
 {
     margin-bottom: 15vh;
+}
+
+.li-p
+{
+    padding: 1rem;
+}
+
+.btm-0px
+{
+    bottom: 0px;
+}
+
+.jumbotron
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.footer-links svg
+{
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+.footer-links li
+{
+    padding: 10px;
+}
+
+ul
+{
+    padding: 0px;
 }
